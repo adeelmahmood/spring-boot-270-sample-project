@@ -25,7 +25,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.test.main.Application</mainClass>
+					<mainClass>com.test.app.Application</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
 			</plugin>
