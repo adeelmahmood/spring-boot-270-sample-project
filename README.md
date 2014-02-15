@@ -13,7 +13,7 @@ If you run the application from eclipse it works fine but if you compile a jar a
 ```
 java -jar app-0.0.1-SNAPSHOT.jar
 ```
-works fine
+works fine but
 
 ```
 java -jar -Dloader.path=. app-0.0.1-SNAPSHOT.jar
@@ -44,7 +44,7 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.boot.CommandLin
         at java.lang.ClassLoader.loadClass(Unknown Source)
         ... 14 more
 ```
-doesnt works because it cant find the spring boot jar. changing that to
+doesnt works because it cant find the spring boot jars .. changing that to
 
 ```
 java -jar -Dloader.path=app-0.0.1-SNAPSHOT.jar app-0.0.1-SNAPSHOT.jar
